@@ -41,7 +41,7 @@
 .github{
   border: 2px solid black;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   width: auto;
   padding: 5px !important;
   font-size: 20px;
@@ -57,6 +57,28 @@
   padding: 8px;
   margin-bottom: 16px;
 }
+
+@media (max-width: 992px) {
+  .youtube-video {
+    height: 260px;
+    width: 100%;  
+  }
+}
+
+@media (min-width: 993px) {
+  .youtube-video {
+    height: 400px;
+    width: 80%;  
+  }
+}
+
+.badge{
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5x;
+  color: black;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -154,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #111;
 }
 #header .logo a span {
-  color: #000000;
+  color: #454545;
   text-transform: capitalize;
   font-size: 15px; position: absolute;
 }
@@ -188,6 +210,11 @@ h1, h2, h3, h4, h5, h6 {
   .header-social-links {
     padding: 0 15px 0 0;
     border-left: 0;
+  }
+}
+@media (max-width: 990px) {
+  #header {
+    padding: 20px 0;
   }
 }
 
@@ -503,7 +530,7 @@ h2 a{
 }
 @media (min-width: 1024px) {
   #hero .carousel-content {
-    width: 60%;
+    width: 40%;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
