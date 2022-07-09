@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>V-EUPNEA | Software & Data</title>
+  <title>V-EUPNEA | News</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -50,12 +50,12 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="news.html">News</a></li>
+          <li><a href="news.html" class="active">News</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="team.html">People</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="software_data.html" class="active">Software & Data</a></li>
+          <li><a href="software_data.html">Software & Data</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -80,10 +80,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Software & Data</h2>
+          <h2>News</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Software & Data</li>
+            <li>News</li>
           </ol>
         </div>
 
@@ -91,28 +91,80 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade">
+    <section id="portfolio" class="portfolio" data-aos="fade">
+      <div id="newsContainer" class="container">
 
-        <div class="row mx-2">
-          <div class="data_software_title github"><a href="https://github.com/veupnea" target="_blank"><i class="bu bi-github"></i> GitHub</a></div>
-        </div> 
-
-        <div class="row mx-2">
-          <h2 class="data_software_title">Data</h2>
-          <ul>
-            <li><a href="">First Data...</a></li>
-            <li><a href="">Second Data...</a></li>
-          </ul>
-        </div> 
-
-        <div class="row mx-2">
-          <h2 class="data_software_title">Software</h2>
-          <ul>
-            <li><a href="">First Software...</a></li>
-            <li><a href="">Second Software...</a></li>
-          </ul>
-        </div>         
+        <!-- News Template Start-->
+        <div class="row newsItem">
+          <div class="portfolio-item">
+            <div id="news-siggraph22-ccp" class="row publistItem fade-up">
+                <div class="col-sm-2 portfolio-wrap">
+                    <img src="assets/img/news/1-siggraph22-ccp-thumb.jpg" alt="..." class="img-fluid img-rounded center-block" title="">
+                </div>
+              <div class="col-sm-10 text-justify">
+                <h2 class="publistTitle">
+                  <a href="publication_pages/siggraph22-ccp.html">Our paper "CCP": Configurable Crowds Profiles" has been accepted for publication at SIGGRAPH 2022 Conference.
+                    <i class="bi bi-box-arrow-up-right"></i></a> 
+                </h2>
+                <span class="publistJournal">
+                   09 July 2022
+                </span>
+                <p id="" class="abstract">
+                  The proposed solution allows to model the diversity among agents’ behaviors and achieve heterogeneity in virtual crowds. To achieve that, a Reinforcement Learning-based framework has been developed to simulate multiple agents’ behaviors concurrently: heterogeneous behaviors and their various combinations and interactions were considered to form diverse agent profiles within a virtual crowd. The agents’ behavior can be optimised by cleverly varying the importance of several common behavior types of sub-behaviors, namely goal seeking, collision avoidance, interactions with points of interest in an environment, and grouping while training the model. The importance of each separate sub-behavior is added as input to the agent policy, resulting in the development of a unified crowd simulation model capable of both capturing and enabling dynamic run-time manipulation of several different agent profiles. Thus, this method allows creating fully configurable profiles within a virtual crowd to ensure realism and plausibility in the resulting simulated scenarios.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- News Template End-->  
+        
+        <!-- News Template Start-->
+        <div class="row newsItem">
+          <div class="portfolio-item">
+            <div id="" class="row publistItem fade-up">
+                <div class="col-sm-2 portfolio-wrap">
+                    <img src="assets/img/publications/empty.jpg" alt="..." class="img-fluid img-rounded center-block" title="">
+                </div>
+              <div class="col-sm-10 text-justify">
+                <h2 class="publistTitle">
+                  News Title 2
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </h2>
+                <span class="publistJournal">
+                  Date Added
+                </span>
+                <p id="" class="abstract">
+                  Description. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- News Template End-->
+        
+        <!-- News Template Start-->
+        <div class="row newsItem">
+          <div class="portfolio-item">
+            <div id="" class="row publistItem fade-up">
+                <div class="col-sm-2 portfolio-wrap">
+                    <img src="assets/img/publications/empty.jpg" alt="..." class="img-fluid img-rounded center-block" title="">
+                </div>
+              <div class="col-sm-10 text-justify">
+                <h2 class="publistTitle">
+                  News Title 3
+                  <i class="bi bi-box-arrow-up-right"></i> 
+                </h2>
+                <span class="publistJournal">
+                  Date Added
+                </span>
+                <p id="" class="abstract">
+                  Description. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- News Template End--> 
 
       </div>
     </section><!-- End Portfolio Section -->

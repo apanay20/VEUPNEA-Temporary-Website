@@ -48,6 +48,19 @@
   font-weight: 600;
 }
 
+.moreNewsBtn{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 250px;
+  text-align: center;
+  padding: 0px !important;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #pubBibTex {
   display: inline-block;
   text-align: left;
@@ -77,6 +90,10 @@
   border: 2px solid #000000;
   border-radius: 5x;
   color: black;
+}
+
+.portfolio-wrap img{
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -135,7 +152,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mainList{
-  list-style-position: inside;
   list-style-type: square;
 }
 
@@ -174,14 +190,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 #header .logo a {
   color: #111;
+  font-weight: 500;
 }
 #header .logo a span {
-  color: #454545;
+  color: #000000;
   text-transform: capitalize;
-  font-size: 15px; position: absolute;
+  font-size: 15px;
+  position: absolute;
+  font-weight: 300;
 }
 #header .logo img {
-  max-height: 30px;
+  max-height: 20px;
   margin-right: 5px;
   margin-bottom: 5px;
 }
@@ -244,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 500;
   color: #111;
   white-space: nowrap;
   text-transform: uppercase;
@@ -257,6 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
   color: #000000;
+  font-size: 15px;
 }
 .navbar .dropdown ul {
   display: block;
@@ -345,7 +365,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   transition: 0.3s;
   z-index: 999;
 }
@@ -362,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.85);
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -412,7 +432,7 @@ h2 a{
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 60vh;
+  height: 50vh;
   background-color: rgba(0, 0, 0, 0.8);
   overflow: hidden;
   position: relative;
@@ -558,7 +578,7 @@ h2 a{
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -1872,6 +1892,7 @@ section {
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  font-weight: 300;
 }
 #footer .footer-top .footer-contact h3 {
   font-size: 22px;
@@ -1883,6 +1904,7 @@ section {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 0px;
+  font-weight: 400;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;

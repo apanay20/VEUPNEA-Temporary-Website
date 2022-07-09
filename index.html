@@ -50,7 +50,9 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="team.html" class="active">People</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="team.html">People</a></li>
           <li><a href="publications.html">Publications</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="software_data.html">Software & Data</a></li>
@@ -72,91 +74,43 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div id="heroCarousel" data-bs-interval="4000" class="carousel slide carousel-fade" data-bs-ride="carousel">
-
+ <section id="hero" data-aos="fade">
+    <div id="heroCarousel" data-bs-interval="2000" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/news/1-siggraph22-ccp-thumb.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2><a href="publication_pages/siggraph22-ccp.html">CCP: Configurable Crowd Profiles <i class="bi bi-box-arrow-up-right"></i></a></h2>
-              <p>A reinforcement learning framework where agents learn multiple behaviors
-                concurrently. These behaviors can be controlled, at run-time, by manipulating simple sliders.</p>
-            </div>
-          </div>
+        <div class="carousel-item active" style="background-image: url(assets/img/demo/1-siggraph22-ccp-thumb.jpg);">
         </div>
-
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/news/2-news.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2><a href="">News 2 <i class="bi bi-box-arrow-up-right"></i></a></h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p>
-            </div>
-          </div>       
+        <div class="carousel-item" style="background-image: url(assets/img/demo/2-demo.jpg);">
         </div>
-
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/news/3-news.jpg);">
-          <div class="carousel-container">
-            <div class="carousel-content animate__animated animate__fadeInUp">
-              <h2><a href="">News 3 <i class="bi bi-box-arrow-up-right"></i></a></h2>
-              <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut.</p>
-            </div>
-          </div>        
+        <div class="carousel-item" style="background-image: url(assets/img/demo/3-demo.jpg);">
         </div>
-
       </div>
 
       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
       </a>
-
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
       </a>
-
       <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
     </div>
   </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= About Us Section ======= -->
-    <section id="about-us" class="about-us" data-aos="fade">
-      <div class="container">
-
-        <div class="row content">
-          <div class="col-md-6 col-12 mb-4 mb-md-0" style="text-align: justify">
-            <p>
-              <strong>
-                The research focus of the V-EUPNEA MRG (from the Greek word “εύπνοια” which means to breath easily) is to breathe life to virtual worlds using Computer Animation techniques with emphasis on Virtual Humans and Crowds but also other animated entities such as animals and human transportation.
-            </strong>
-            </p>
-            <p>
-              We have at the core of our research, the artists and users that are designing and populating virtual environments; as such we aim to create new methods and tools for artists to easily populate virtual environments with high quality animated characters that are interacting properly with their environments. We will be exploring these subjects both in the context of individuals and crowds. Several technologies such as motion capture, physically based animation, machine learning (e.g., reinforcement learning), computer vision and game engines are important in achieving our goals 
-            </p>
-          </div>
-          <div class="col-md-6 col-12">
-            <h5>Specific research topics that interest the group include:</h5>
-            <ul id="mainList">
-              <li>Artist/user friendly methods to populate virtual environments</li>
-              <li>Crowd Simulations</li>
-              <li>Multi-agent Deep Reinforcement Learning for heterogeneous crowds</li>
-              <li>Scene understanding and interaction in the context of animation</li>
-              <li>Physically based control of virtual characters using machine learning</li>
-              <li>Editing and transferring style in computer animation</li>
-              <li>Simulating the interactions of pedestrians and vehicles</li>
-              <li>Procedural and/or data-driven generation of virtual humans</li>
-              <li>Efficient and realistic animation of large-scale (city level) crowds and traffic</li>
-            </ul>
-          </div>
+  <main id="main" data-aos="fade">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" style="margin-bottom: 30px;">
+        <div class="portfolio-description">
+          <h2>Latest News</h2>
         </div>
+      </div>
+      <div id="newsContainerHomepage" class="container" data-aos="fade">
 
       </div>
-    </section><!-- End About Us Section -->
+    </section><!-- End Portfolio Section -->
+
 
   </main><!-- End #main -->
 
