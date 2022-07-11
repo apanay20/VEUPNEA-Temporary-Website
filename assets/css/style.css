@@ -159,6 +159,10 @@
   font-weight: 300;
 }
 
+.portfolio-description p{
+  margin-bottom: 0px !important;
+}
+
 .profileDesc .desc{
   height: 75%;
   padding-right: 5px;
