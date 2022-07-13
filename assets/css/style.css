@@ -687,7 +687,7 @@ h2 a{
 }
 @media (max-width: 992px) {
   #hero{
-    top: 3vh !important;
+    top: 2vh !important;
   }
   #hero .carousel-container {
     top: 58px;
@@ -708,7 +708,7 @@ h2 a{
 
 @media (max-width: 500px) {
   #hero{
-    top: 6vh !important;
+    top: 2vh !important;
   }
 }
 
