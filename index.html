@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>V-EUPNEA | Living, Breathing Virtual Worlds</title>
+  <title>V-EUPNEA | Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -21,12 +21,10 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/mdb/mdb.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -39,7 +37,7 @@
   ======================================================== -->
 </head>
 
-<body class="mainPage">
+<body>
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -64,7 +62,7 @@
       </nav><!-- .navbar -->
       <div class="header-social-links d-flex">
         <a href="https://www.cyens.org.cy/en-gb/" target="_blank" class="twitter">
-          <img src="assets/img/logos/CYENS-BLACK-LOGO.png" alt="" class="img-fluid">
+          <img src="assets/img/logos/CYENS-BLACK-LOGO.png" alt="" class="img-fluid" style="width: 20px;">
         </a>
       </div>
 
@@ -82,22 +80,27 @@
 
   <!-- ======= Hero Section ======= -->
  <section id="hero" data-aos="fade">
-    <!-- Carousel wrapper -->
-    <div id="carouselVideo" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-interval="4000">
-      <!-- Inner -->      
-      <div class="carousel-inner">
-        <!-- Single item -->
-        <div class="carousel-item active">
-          <video class="img-fluid" autoplay loop muted>
-            <source src="assets/img/demo/agents.mp4"type="video/mp4"/>
-          </video>
-        </div>
+    <div id="heroCarousel" data-bs-interval="2500" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide -->
+        <div class="carousel-item active" style="background-image: url(assets/img/demo/ehem_outside.webp);"></div>
+        <!-- Slide -->
+        <div class="carousel-item" style="background-image: url(assets/img/demo/motion_capture.webp);"></div>
+        <!-- Slide -->
+        <div class="carousel-item" style="background-image: url(assets/img/demo/agents.webp);"></div>
+        <!-- Slide -->
+        <div class="carousel-item" style="background-image: url(assets/img/demo/eg22-tumb.jpg);"></div>
       </div>
-      <!-- Inner -->
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
     </div>
-    <!-- Carousel wrapper -->
   </section><!-- End Hero -->
-  
 
   <main id="main" data-aos="fade">
     <!-- ======= Portfolio Section ======= -->
@@ -172,7 +175,6 @@
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/mdb/mdb.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
@@ -181,6 +183,7 @@
   <script src="assets/vendor/jquery/jquery3.6.0.min.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/custom.js"></script>
   <script src="assets/js/main.js"></script>
 
 </body>
