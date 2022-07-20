@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="43mm"
+   height="43mm"
+   viewBox="0 0 43 43"
+   version="1.1"
+   id="svg2246"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="list4svg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2248"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.51224046"
+     inkscape:cx="396.29825"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1440"
+     inkscape:window-height="797"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2243">
+    <rect
+       x="128.84573"
+       y="527.09619"
+       width="292.83121"
+       height="234.26498"
+       id="rect2765" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:none;stroke:#000000;stroke-width:0.595993;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path2373"
+       cx="21.5"
+       cy="21.5"
+       r="19.702003" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-21.780263,-138.23852)"
+       id="text2763"
+       style="font-size:133.333px;line-height:1.25;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';letter-spacing:0px;white-space:pre;shape-inside:url(#rect2765)"><tspan
+         x="128.8457"
+         y="650.40268"
+         id="tspan7713"><tspan
+           style="font-family:'Bodoni 72';-inkscape-font-specification:'Bodoni 72, '"
+           id="tspan7711">4</tspan></tspan></text>
+  </g>
+</svg>

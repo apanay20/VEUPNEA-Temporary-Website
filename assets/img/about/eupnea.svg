@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="60mm"
+   viewBox="0 0 99.999999 60"
+   version="1.1"
+   id="svg6336"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="eupnea.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview6338"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.51224046"
+     inkscape:cx="459.74502"
+     inkscape:cy="225.48004"
+     inkscape:window-width="1423"
+     inkscape:window-height="719"
+     inkscape:window-x="17"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs6333">
+    <rect
+       x="119.0847"
+       y="310.40109"
+       width="591.51904"
+       height="509.52634"
+       id="rect6826" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,-31.261706,-74.778867)"
+       id="text6824"
+       style="font-size:160px;line-height:0.55;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';letter-spacing:0px;white-space:pre;shape-inside:url(#rect6826);stroke-width:2.51339;stroke-miterlimit:4;stroke-dasharray:none;stroke:#fe463c;fill:#000000;fill-opacity:0;stroke-opacity:1"><tspan
+         x="119.08398"
+         y="402.36914"
+         id="tspan9150"><tspan
+           style="font-weight:bold;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold'"
+           id="tspan9148">εὔ
+</tspan></tspan><tspan
+         x="119.08398"
+         y="497.00385"
+         id="tspan9154"><tspan
+           style="font-weight:bold;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold'"
+           id="tspan9152">πνοια</tspan></tspan></text>
+  </g>
+</svg>
